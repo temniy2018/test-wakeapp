@@ -1,0 +1,384 @@
+.main_bg {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+.main_bgMobile {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: none;
+    object-fit: cover;
+    max-height: 978px;
+}
+
+.main_signUp {
+    display: flex;
+    align-items: flex-end;
+    padding: 34px 0;
+}
+
+.main_signUp_action {
+    width: 50%;
+    margin-top: 80px;
+    padding: 0 10px;
+}
+
+.main_signUp_action h1 {
+    color: white;
+    font-family: 'Roboto';
+    font-size: 64px;
+    margin-bottom: 0;
+}
+
+.main_signUp_action h1 span {
+    color: #f3b233;
+}
+
+.main_signUp_action h3 {
+    color: white;
+    font-family: 'Roboto';
+    font-size: 32px;
+    margin-top: 10px;
+}
+
+.main_signUp_action h3 span {
+    color: #f3b233;
+}
+
+.main_signUp_action a {
+    color: white;
+    font-family: 'Roboto';
+    font-size: 18px;
+    text-decoration: none;
+    background-color: #f3b233;
+    padding: 20px 40px;
+}
+
+
+.main_signUp_action_lastWinners {
+    margin: 35px 0 15px;
+    font-family: 'Roboto';
+    color: white;
+}
+
+.main_signUp_action_lastWinnersMobile {
+    padding: 15px 10px 15px;
+    font-family: 'Roboto';
+    color: white;
+    display: none;
+    background-color: #060e2a;
+    margin: -1px 0 0;
+}
+
+.main_menuMobile {
+    display: none;
+    background-color: #060e2a;
+    padding: 20px 0 0;
+}
+
+.main_menuMobile div {
+    padding: 10px;
+    font-family: 'Roboto';
+    font-size: 12px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.main_menuMobile img {
+    height: 20px;
+}
+
+.main_menuMobile span {
+    margin: 10px 0;
+}
+
+.main_signUp_games {
+    display: flex;
+    width: 100%;
+}
+
+.main_signUp_gamesMobile {
+    display: none;
+    width: 100%;
+    background-color: #060e2a;
+}
+
+.main_signUp_games div {
+    width: 33%;
+    padding: 0 20px 0 0;
+}
+
+.main_signUp_gamesMobile div {
+    width: 33%;
+    padding: 0 10px;
+    max-width: 143px;
+}
+
+.main_signUp_games img, .main_signUp_gamesMobile img {
+    width: 100%;
+}
+
+.main_signUp_games_win {
+    font-family: 'Roboto';
+    color: #f3b233;
+    text-align: right;
+    margin: 0 5px;
+}
+
+.main_signUp_games_user {
+    color: #52586f;
+    text-align: right;
+    font-family: 'Roboto';
+    margin: 0 5px;
+}
+
+.main_signUp_imgs {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.main_signUp_imgs_imgDiv {
+    display: flex;
+    align-items: center;
+}
+
+.main_signUp_imgs_imgDiv div {
+    display: flex;
+    flex-direction: column;
+}
+
+.main_signUp_imgs_imgDiv_details {
+    color: white;
+    font-family: 'Roboto';
+    font-size: 18px;
+    margin:0 15px;
+}
+
+.main_signUp_imgs_imgDiv_description {
+    color: #52586f;
+    font-family: 'Roboto';
+    font-size: 18px;
+    margin:0 15px;
+}
+
+.main_categories {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 0 10px;
+    background-color: #060e2a;
+    width: 100%;
+}
+
+.main_categories div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    background-color: #0e152f;
+    cursor: pointer;
+}
+
+.main_categories img {
+    height: 35px
+}
+
+.main_categories span {
+    font-family: "Roboto";
+    color: white;
+    font-size: 18px;
+    margin: 15px 0
+}
+
+.main_providers {
+    display: flex;
+    width: 100%;
+    background-color: #060e2a;
+    padding: 10px 0;
+    justify-content: space-between;
+}
+
+.main_providers > div {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.main_providers > div > span, .main_providers > div > div {
+    padding: 15px 20px;
+    font-family: 'Roboto';
+    font-size: 18px;
+    color: white;
+    background-color: #0e152f;
+    border: solid 1px #161d37;
+    margin: 0 10px;
+    display: flex;
+    align-items: center;
+}
+
+.main_providers img {
+    height: 22px;
+    margin: 0 10px 0 5px;
+}
+
+.main_providers input {
+    border: solid 1px #161d37;
+    background-color: #0e152f;
+    color: white;
+    border-radius: 0;
+    margin: 0 15px;
+    padding: 5px 20px 5px 40px;
+    height: 40px;
+}
+
+.main_providers input::placeholder {
+    color: white;
+}
+
+.main_providers label {
+    position: absolute;
+    left: 23px;
+    color: #eb1c2a;
+    font-size: 24px;
+}
+
+.main_searchMobile {
+    display: none;
+    align-items: center;
+    position: relative;
+    background-color: #060e2a;
+    padding: 10px;
+}
+
+.main_searchMobile input {
+    border: solid 1px #161d37;
+    background-color: #0e152f;
+    color: white;
+    border-radius: 0;
+    margin: 0 15px;
+    padding: 5px 20px 5px 40px;
+    height: 40px;
+    width: 100%;
+}
+
+.main_searchMobile input::placeholder {
+    color: white;
+}
+
+.main_searchMobile label {
+    position: absolute;
+    left: 33px;
+    color: #eb1c2a;
+    font-size: 24px;
+}
+
+.main__mobile {
+    display: none;
+}
+
+@media(max-width: 1516px) {
+    .main_bg {
+        display: none;
+    }
+
+    .main_bgMobile {
+        display: block;
+    }
+
+    .main_signUp {
+        align-items: flex-start;
+        padding: 34px 0 0;
+    }
+}
+
+@media(max-width: 1190px) {
+    .main_signUp_imgs {
+        display: none;
+    }
+
+    .main_signUp_action {
+        width: 90%;
+    }
+
+    .main_categories {
+        display: none;
+    }
+
+    .main_providers {
+        display: none;
+    }
+
+    .main_searchMobile {
+        display: flex;
+    }
+}
+
+@media(max-width: 833px) {
+    .main_menuMobile {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
+
+@media(max-width: 650px) {
+    .main_signUp_games {
+        display: none;
+    }
+
+    .main_signUp_gamesMobile {
+        display: flex;
+        justify-content: center;
+        margin-top: -1px;
+    }
+
+    .main__mobile {
+        display: inline-block;
+    }
+
+    .main__pc {
+        display: none;
+    }
+
+    .main_signUp_action_lastWinners {
+        display: none;
+    }
+
+    .main_signUp_action_lastWinnersMobile {
+        display: block;
+        background-color: #060e2a;
+    }
+}
+
+@media(max-width: 480px) {
+    .main_signUp_games_win {
+        margin: 0;
+        font-size: 14px;
+    }
+
+    .main_signUp_games_user {
+        margin: 0;
+        font-size: 10px;
+    }
+}
+
+@media(max-width: 450px) {
+    .main_signUp_action h1 {
+        font-size: 32px;
+    }
+
+    .main_signUp_action h3 {
+        font-size: 16px;
+    }
+
+    .main_signUp_action {
+        margin-top: 220px
+    }
+}

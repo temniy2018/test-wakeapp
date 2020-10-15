@@ -1,0 +1,27 @@
+.games {
+    padding: 20px 10px;
+    background-color: #060e2a;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.games img {
+    margin: 5px 5px;
+    width: 239px;
+}
+
+.loading {
+    color: white;
+    font-family: 'Roboto';
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 565px) {
+    .games img {
+        width: 100px
+    }
+}
