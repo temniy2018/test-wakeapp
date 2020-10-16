@@ -25,6 +25,7 @@ import ic_menu from '../img/ic_menu.svg';
 import ic_promotions from '../img/ic_promotions.svg';
 import ic_deposit from '../img/ic_deposit.svg';
 import ic_chat from '../img/IC_Chat.svg';
+import ic_jackpot from '../img/ic_jackpot.svg';
 import Games from './Games';
 
 class Main extends React.Component {
@@ -58,16 +59,19 @@ class Main extends React.Component {
                                     <img src={TreasureHeroes} alt="game" />
                                     <p className={s.main_signUp_games_win}>&#8364; 11.574.60</p>
                                     <p className={s.main_signUp_games_user}>Wild98 just won</p>
+                                    <img src={ic_jackpot} alt="jackpot" className={s.main_signUp_games_jackpot}/>
                                 </div>
                                 <div>
                                     <img src={OzwinsJackpots} alt="game" />
                                     <p className={s.main_signUp_games_win}>&#8364; 8.200.66</p>
                                     <p className={s.main_signUp_games_user}>Luiliana just won</p>
+                                    <img src={ic_jackpot} alt="jackpot" className={s.main_signUp_games_jackpot}/>
                                 </div>
                                 <div>
                                     <img src={WildRobo} alt="game" />
                                     <p className={s.main_signUp_games_win}>&#8364; 6.483.67</p>
                                     <p className={s.main_signUp_games_user}>Farisha just won</p>
+                                    <img src={ic_jackpot} alt="jackpot" className={s.main_signUp_games_jackpot}/>
                                 </div>
                             </div>
                         </div>

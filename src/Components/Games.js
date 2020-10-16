@@ -24,11 +24,28 @@ class Games extends React.Component {
             response.map((el, i) => games[i] = el.item_title);
             return games;
         }
+        if(this.props.category === 'top') {
+            response.map((el,i)=>{
+                if(el.is_most_popular) {
+                    games[i] = el.item_title;
+                } else {
+                    games[i] = null;
+                }
+            });
+            games = games.filter(el => el !== null)
+            return games;
+        }
     }
 
     componentDidMount() {
         this.getData().then(response => this.setState({games: response}))
         console.log(this.state.games);
+    }
+
+    componentDidUpdate(prevProps, prevState) {
+        if(this.props.category !== prevProps.category) {
+            this.getData().then(response => this.setState({games: response}));
+        }
     }
 
     render() {

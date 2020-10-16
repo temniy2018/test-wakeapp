@@ -113,6 +113,7 @@
 .main_signUp_games div {
     width: 33%;
     padding: 0 20px 0 0;
+    position: relative;
 }
 
 .main_signUp_gamesMobile div {
@@ -137,6 +138,13 @@
     text-align: right;
     font-family: 'Roboto';
     margin: 0 5px;
+}
+
+.main_signUp_games_jackpot {
+    width: 20px !important;
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 .main_signUp_imgs {
